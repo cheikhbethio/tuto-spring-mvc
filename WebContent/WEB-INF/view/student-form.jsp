@@ -39,6 +39,14 @@
 				<form:radiobutton path="favoriteLangage" value="C#"/> C# <br/>
 		</p>
 		
+		<p>
+			Your Passions: <br/>
+			<form:checkbox path="passions" value="natation"/> Natation <br/>
+			<form:checkbox path="passions" value="Foot"/> Foot <br/>
+			<form:checkbox path="passions" value="Danse"/> Danse <br/>
+		</p>
+		
+		
 		<p> 
 			<input type="submit" value="submit" /> 
 		</p>

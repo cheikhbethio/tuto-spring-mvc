@@ -1,4 +1,4 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
 <!DOCTYPE html>
@@ -24,6 +24,17 @@
 
 	<p>
 		Your favorite language: ${student.favoriteLangage}
+	</p>
+	
+	
+	<p>
+		Your passions: <br>
+		<ul>
+			<c:forEach var="temp" items="${student.passions}">
+				<li> ${temp} </li>		
+			</c:forEach>
+		</ul>
+
 	</p>
 	
 </body>

@@ -9,6 +9,7 @@ public class Student {
 	private LinkedHashMap<String, String> possibleReligions = new LinkedHashMap<String, String>();
 	private String religion;
 	private String favoriteLangage;
+	private String[] passions;
 	
 	Student(){
 		possibleReligions.put("IS", "Islam");
@@ -53,6 +54,14 @@ public class Student {
 
 	public void setFavoriteLangage(String favoriteLangage) {
 		this.favoriteLangage = favoriteLangage;
+	}
+
+	public String[] getPassions() {
+		return passions;
+	}
+
+	public void setPassions(String[] passions) {
+		this.passions = passions;
 	}
 	
 	
