@@ -2,6 +2,14 @@
 <html>
 	<body>
 		<h2>Hello in spring MVC demo</h2>
-		<a href="/spring-mvc/showForm">Go to the form</a>
+		<p> 
+			<a href="/spring-mvc/showForm">Go to the form</a>		
+		</p>
+		
+		<p> 
+			<a href="/spring-mvc/student/showForm">Go to student form</a>		
+		</p>
+		
+		
 	</body>
 </html>
