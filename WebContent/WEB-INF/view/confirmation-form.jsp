@@ -11,15 +11,19 @@
 	<h3>Student registred</h3>
 	
 	<p>
-		Your first name is : ${student.lastName}
+		Your first name: ${student.lastName}
 	</p>
 	
 	<p>
-		Your last name is : ${student.lastName}
+		Your last name: ${student.lastName}
 	</p>
 	
 	<p>
 		You in the ${student.religion} religion
+	</p>
+
+	<p>
+		Your favorite language: ${student.favoriteLangage}
 	</p>
 	
 </body>
