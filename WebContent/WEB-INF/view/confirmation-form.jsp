@@ -9,25 +9,10 @@
 </head>
 <body>
 	<h3>Student registred</h3>
-	
-	<p>
-		Your first name: ${student.lastName}
-	</p>
-	
-	<p>
-		Your last name: ${student.lastName}
-	</p>
-	
-	<p>
-		You in the ${student.religion} religion
-	</p>
-
-	<p>
-		Your favorite language: ${student.favoriteLangage}
-	</p>
-	
-	
-	<p>
+		Your first name: ${student.lastName} <br/>
+		Your last name: ${student.lastName} <br/>
+		You in the ${student.religion} religion <br/>
+		Your favorite language: ${student.favoriteLangage} <br/>
 		Your passions: <br>
 		<ul>
 			<c:forEach var="temp" items="${student.passions}">
