@@ -7,5 +7,7 @@
 <body>
 	first Name: ${customer.firstName}<br/>
 	Last Name: ${customer.lastName} <br/>
+	Free Passes: ${customer.freePasses} <br/>
+	Postal Code: ${customer.postalCode} <br/>
 </body>
 </html>

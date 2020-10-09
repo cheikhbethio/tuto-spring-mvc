@@ -18,6 +18,13 @@
 		FirstName <form:input path="firstName" /> <br/>
 		LastName <form:input path="lastName" />
 		<form:errors cssClass="error" path="lastName"/> <br>
+		
+		FreePasses <form:input path="freePasses"/>
+		<form:errors cssClass="error" path="freePasses"/> <br>
+		
+		PostalCode <form:input path="postalCode"/>
+		<form:errors cssClass="error" path="postalCode"/> <br>
+		
 		<input type="submit" value="Submit" />
 	</form:form>
 
